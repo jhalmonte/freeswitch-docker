@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+ freeswitch:
+  hostname: freeswitch
+  container_name: freeswitch
+  build: .
+  network_mode: "host"
+  restart: always
