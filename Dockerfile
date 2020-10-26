@@ -47,6 +47,6 @@ CMD ["freeswitch", "-u", "freeswitch", "-g", "freeswitch", "-nonat", "-nf", "-nc
 # Description
 LABEL \
 	project="docker/freeswitch" \
-	version="0.0.0" \
+	version="1.0.0" \
 	maintainer="Sergey Kurbatov - kurbatov.sergs@gmail.com" \
 	build-date=$BUILD_DATE
